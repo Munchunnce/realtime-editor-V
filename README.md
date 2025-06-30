@@ -1,4 +1,5 @@
-```markdown
+---
+
 <h1 align="center">💻 Realtime Code Editor 🧠</h1>
 <p align="center">
   A lightning-fast collaborative code editor built using <b>React.js</b>, <b>Socket.IO</b>, and <b>Express.js</b> that lets multiple users write and share code in real-time!
@@ -11,6 +12,7 @@
   <img src="https://img.shields.io/badge/Live-Collaboration-green?style=flat-square" />
 </p>
 
+---
 
 ## 🚀 Features
 
