@@ -48,7 +48,7 @@
 
 ### 🧑‍💻 Code Editor with Multiple Users
 ![Editor](./public/editorpage.png)
-![Join Users](./public/syncuser.png.png)
+![Join Users](./public/syncuser.png)
 
 ---
 
