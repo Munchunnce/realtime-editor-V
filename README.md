@@ -1,7 +1,3 @@
-
-
----
-
 ```markdown
 <h1 align="center">💻 Realtime Code Editor 🧠</h1>
 <p align="center">
@@ -15,7 +11,6 @@
   <img src="https://img.shields.io/badge/Live-Collaboration-green?style=flat-square" />
 </p>
 
----
 
 ## 🚀 Features
 
