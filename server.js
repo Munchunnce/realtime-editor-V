@@ -28,7 +28,7 @@ function getAllConnectedClients(roomId) {
       username: userSocketMap[socketId],
     };
   });
-}
+};
 
 io.on('connection', (socket) => {
   console.log('socket connected...', socket.id);
@@ -49,7 +49,7 @@ io.on('connection', (socket) => {
   // code change write
   socket.on(ACTIONS.CODE_CHANGE, ({ roomId, code}) => {
     socket.in(roomId).emit(ACTIONS.CODE_CHANGE, { code });
-  })
+  });
 
   // code new user same write code seen
   socket.on(ACTIONS.SYNC_CODE, ({ socketId, code }) => {
