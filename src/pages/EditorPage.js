@@ -35,7 +35,7 @@ const EditorPage = () => {
       socketRef.current.on(ACTIONS.JOINED, ({ clients, username, socketId }) => {
         if (username !== location.state?.username) {
           toast.success(`${username} joined the room.`);
-        }
+        };
 
         setClients(clients);
         // ✅ Send the latest code only if this user is not the new one
@@ -44,7 +44,7 @@ const EditorPage = () => {
             socketId, // New user's socketId
             code: codeRef.current, // Current latest code
           });
-        }
+        };
       });
 
       //Listening for disconnected
