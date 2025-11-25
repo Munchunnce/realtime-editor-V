@@ -13,6 +13,7 @@ const EditorPage = () => {
   const { roomId } = useParams();
   const reactNavigator = useNavigate();
   const [clients, setClients] = useState([]);
+  
 
   useEffect(() => {
     const init = async () => {
